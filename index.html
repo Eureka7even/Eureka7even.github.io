@@ -28,7 +28,7 @@
 
 
 
-  <meta name="keywords" content="Hexo,next" />
+  <meta name="keywords" content="web前端,程序员,HTML,javascript,css,HTML5" />
 
 
 
@@ -153,7 +153,7 @@
           
             
               <a class="post-title-link" href="/2015/07/28/一条咸鱼的魔法之旅/" itemprop="url">
-                一条咸鱼的魔法之旅
+                一条咸鱼的现代魔法之旅
               </a>
             
           
@@ -169,6 +169,17 @@
         </span>
 
         
+          <span class="post-category" >
+            &nbsp; | &nbsp; 分类于
+            
+              <span itemprop="about" itemscope itemtype="https://schema.org/Thing"><a href="/categories/Eureka/" itemprop="url" rel="index"><span itemprop="name">Eureka</span></a></span>
+
+              
+              
+
+            
+          </span>
+        
 
         
           
@@ -183,7 +194,8 @@
 
       
         
-          <span itemprop="articleBody"></span>
+          <span itemprop="articleBody"><h2 id="Eureka">Eureka</h2><hr>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">function</span> YYYYMM(str) //年发生变化时日期发生变化(主要是判断闰平年)</span><br><span class="line">&#123;</span><br><span class="line">    var MMvalue = document.getElementById(<span class="string">"MM"</span>).options[document.getElementById(<span class="string">"MM"</span>).selectedIndex].value;</span><br><span class="line">    <span class="keyword">if</span> (MMvalue == <span class="string">""</span>) &#123;</span><br><span class="line">        DD.outerHTML = strDD;</span><br><span class="line">        <span class="built_in">return</span>;</span><br><span class="line">    &#125;</span><br><span class="line">    var n = MonHead[MMvalue - <span class="number">1</span>];</span><br><span class="line">    <span class="keyword">if</span> (MMvalue == <span class="number">2</span> &amp;&amp; IsP<span class="keyword">in</span>Year(str)) n++;</span><br><span class="line">    writeDay(n)</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></span>
         
       
     </div>
@@ -244,7 +256,7 @@
 
           <div class="site-state-item site-state-categories">
             <a href="/categories">
-              <span class="site-state-item-count">0</span>
+              <span class="site-state-item-count">1</span>
               <span class="site-state-item-name">分类</span>
               </a>
           </div>
@@ -308,7 +320,7 @@
   powerd by <a href="http://hexo.io" class="theme-link">Hexo</a>
 </div>
 <div class="theme-info">
-  Theme:<a href="https://github.com/iissnan/hexo-theme-next" class="theme-link">NexT.Mist</a>
+  Theme: <a href="https://github.com/iissnan/hexo-theme-next" class="theme-link">NexT.Mist</a>
 </div>
 
 
